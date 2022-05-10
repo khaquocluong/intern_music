@@ -1,0 +1,3 @@
+127.0.0.1 - - [13/Apr/2022:13:36:49 +0700] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [13/Apr/2022:13:36:52 +0700] "GET /MusicPlayer/WEB-INF/classes/com/kql/intern/MusicPlayer/MusicPlayerApplication.java HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [13/Apr/2022:13:36:57 +0700] "GET /MusicPlayer/WEB-INF/classes/com/kql/intern/MusicPlayer/MusicPlayerApplication.java HTTP/1.1" 404 992

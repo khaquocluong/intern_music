@@ -1,0 +1,45 @@
+các thẻ thông dụng
+<h1-h6>: tiêu đề nhỏ dần
+<p>: thẻ đoạn văn
+<img> thẻ ảnh
+<a>: thẻ link
+<ul>: dấu o, <ol> thứ tự là số
+	<li>: thẻ list
+</ul>
+<table>: thẻ bảng
+<input>: thẻ scan
+<button>: thẻ nút nhấn
+<div>: Khối
+
+Thuộc tính attribute
+id="string": đặt id để có thể phân biệt(id không được trùng)
+->cách có thể trùng là class="string"
+CSS:
+internel: định dạng style ngay trong html
+externel: tạo thư mục css ngoài html
+inline: định dạng style dưới dạng attribute
+<style>
+	Tên thẻ: vd h1{
+			color: red;
+			font-size: 30px; kích thước
+			}
+</style>
+<link rel="stylesheet" href="./link.css">
+đổi css sử dụng id thì gọi #tênid
+đổi css sử dụng class thì gọi .tênclass
+
+thứ tự ưu tiên: inline->id->class->tag
+
+Đặt biến:
+:root{
+	--variable: color;
+}
+
+
+Các lớp trong 1 khối: 4 lớp
+magrin->border ->pading->body
+pading: mở dày content
+boder: cách viền sau pading
+magrin: khoảng cách của khối
+vd: margin-top: 20px
+box-sizing: border-box; mid content vào giữa khối
